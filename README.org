@@ -1,0 +1,23 @@
+* Installation
+** Packages
+First, you need to install some python packages.
+- ~pip install pandas~
+- ~pip install numpy~
+- ~pip install seaborn~
+- ~pip install matplotlib~
+- ~pip install sklearn~
+- ~pip install sklearn~
+- ~pip install missingno~
+- ~pip install plotly~
+  
+** Platform
+You can load it up in any IDE, preferably jupyter, kaggle.
+
+* Goals
+A low birth weight baby (birth weight < 2.5 kg) faces numerous health related and developmental problems throughout its life. Hence if a potential LBW case is identified during an early stage of pregnancy based on maternal factors, this can be brought under appropriate medical intervention scheme so that eventually the LBW can be avoided.
+
+** Background
+According to a definition adopted by WHO in 1950, a human birth weight less than 2,500 gms. is termed as Low Birth Weight (LBW). The term LBW includes pre-term babies (those born before 37th week of pregnancy), as well as full term babies who are small for date due to intra-uterine growth retardation (IUGR). While pre term birth, till date, is a phenomenon of largely unknown aetiology, IUGR is caused due to various abnormal foetal conditions, or poor maternal conditions – anthropometric, physical, and clinical or socio economic. In our country, the current estimate of incidence of LBW is approximately 30%. The LBW phenomenon has been identified the world over as a public health problem of the first rank, because of a good many hazards associated with this as indicated below. Neonatal mortality and infant mortality rates are significantly higher among LBW babies than their normal birth weight (NBW) counterparts (e.g., 1, 4, and 5). Moreover, LBW survivors as a group are subject to a good many long-term problems such as morbidity and
+development disorders like higher incidence of cerebral palsy (e.g., 4). Cognitive and neuropsychological problems are also evident as reflected in the LBW group recording
+significantly lower IQ scores, conduct disorders, hyperactivity and attentional weaknesses, shyness, \unassertiveness and withdrawn behavior syndrome, as also learning problems, poor
+academic performance etc. These apart, LBW children, the world over, have been found to experience higher incidence of asthma, repeated upper and lower respiratory infection and ear infection and epilepsy, as also to develop malnutrition and weakened immunity (e.g.,9). In addition, LBW phenomenon has a compounding effect in that women who were LBW babies themselves, are more prone to give birth to LBW babies.

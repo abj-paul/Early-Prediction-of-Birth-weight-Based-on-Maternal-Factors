@@ -1,3 +1,4 @@
+#+OPTIONS: \n:t
 Status - Ongoing(It will be completed by 6pm.)
 
 * Goals
@@ -5,9 +6,9 @@ A low birth weight baby (birth weight < 2.5 kg) faces numerous health related an
 
 * Installation
 ** Packages
-First, you need to install some python packages.
-[[https://www.tecmint.com/install-pip-in-linux/][Install pip for your distribution.]]
-For debian-based distros, ~sudo apt install python3-pip~
+- [[https://www.tecmint.com/install-pip-in-linux/][Install pip for your distribution.]]\\
+- Next, Install necessary python packages for this project.
+
 ~pip install pandas numpy seaborn matplotlib sklearn missingno plotly~
   
 ** Platform

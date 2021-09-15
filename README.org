@@ -1,3 +1,5 @@
+Status - Ongoing(It will be completed by 6pm.)
+
 * Installation
 ** Packages
 First, you need to install some python packages.

@@ -1,9 +1,8 @@
 #+OPTIONS: \n:t
-Status - Ongoing(It will be completed by 6pm.)
-
 * Goals
 A low birth weight baby (birth weight < 2.5 kg) faces numerous health related and developmental problems throughout its life. Hence if a potential LBW case is identified during an early stage of pregnancy based on maternal factors, this can be brought under appropriate medical intervention scheme so that eventually the LBW can be avoided.
-
+** About The Project
+To enable health workers in rural area, I have developed a model that uses factors like BMI, Fundal height, abdominal girth, blood pressure that a health worker can easily get info on. The model uses only 8 such information to predict if a mother is NBW or not with 80% accuracy. We suggest to give necessary medications and nutrients to mothers who are not NBW.
 * Installation
 ** Packages
 - [[https://www.tecmint.com/install-pip-in-linux/][Install pip for your distribution.]]\\

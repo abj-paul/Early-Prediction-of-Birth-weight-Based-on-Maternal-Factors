@@ -22,15 +22,13 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#/slide-orgc8fa2ff">Greetings!</a></li>
-<li><a href="#/slide-org7dcfc72">Problem Introduction</a></li>
-<li><a href="#/slide-orgefc4884">Decision Making Schemes</a></li>
-<li><a href="#/slide-orgf99591e">Data Exploration</a></li>
-<li><a href="#/slide-org1452804">Models and Techniques</a></li>
-<li><a href="#/slide-org789ba1c">Model and Feature Selection</a></li>
-<li><a href="#/slide-orgbd65291">Conclusion</a></li>
-<li><a href="#/slide-orgaf65f88">My Journey</a></li>
-<li><a href="#/slide-orga0956a0">Temp</a></li>
+<li><a href="#/slide-org6d917dc">Greetings!</a></li>
+<li><a href="#/slide-org2b8242a">Problem Introduction</a></li>
+<li><a href="#/slide-org736f926">Decision Making Schemes</a></li>
+<li><a href="#/slide-orgd506616">Data Exploration</a></li>
+<li><a href="#/slide-org050cc70">Models and Techniques</a></li>
+<li><a href="#/slide-orgd4ed8ce">Model and Feature Selection</a></li>
+<li><a href="#/slide-orgfc5f88a">Conclusion</a></li>
 </ul>
 </div>
 </div>
@@ -38,8 +36,8 @@
 
 
 <section>
-<section id="slide-orgc8fa2ff">
-<h2 id="orgc8fa2ff">Greetings!</h2>
+<section id="slide-org6d917dc">
+<h2 id="org6d917dc">Greetings!</h2>
 <p>
 I am Abhijit Paul. I am studying <b>Software Engineering</b> in <b>University of Dhaka</b>. I am currently a <b>first year student.</b>
 </p>
@@ -54,13 +52,13 @@ I am currently focusing on the theoritical aspect of data analysis tools. How mo
 </section>
 </section>
 <section>
-<section id="slide-org7dcfc72">
-<h2 id="org7dcfc72">Problem Introduction</h2>
-<div class="outline-text-2" id="text-org7dcfc72">
+<section id="slide-org2b8242a">
+<h2 id="org2b8242a">Problem Introduction</h2>
+<div class="outline-text-2" id="text-org2b8242a">
 </div>
 </section>
-<section id="slide-orge74469f">
-<h3 id="orge74469f">LBW, NBW</h3>
+<section id="slide-org3f6ecd8">
+<h3 id="org3f6ecd8">LBW, NBW</h3>
 
 <div class="figure">
 <p><img src="./LBW.jpeg" alt="LBW.jpeg" />
@@ -80,8 +78,8 @@ poor maternal conditions – anthropometric, physical, and clinical or socio eco
 
 </aside>
 </section>
-<section id="slide-orgec0abd9">
-<h4 id="orgec0abd9">LBW Issues</h4>
+<section id="slide-orga5096fe">
+<h4 id="orga5096fe">LBW Issues</h4>
 <ul>
 <li class="fragment shrink">Neonatal mortality and infant mortality rates are significantly higher</li>
 
@@ -115,8 +113,8 @@ poor academic performance
 
 </aside>
 </section>
-<section id="slide-orgcc3978b">
-<h3 id="orgcc3978b">LBW in Our Country</h3>
+<section id="slide-orgba19941">
+<h3 id="orgba19941">LBW in Our Country</h3>
 
 <div class="figure">
 <p><img src="./LBW and NBW Percentage.png" alt="LBW and NBW Percentage.png" width="500" align="center" />
@@ -127,8 +125,8 @@ poor academic performance
 In our country, the current estimate of incidence of LBW is approximately 30%.
 </p>
 </section>
-<section id="slide-org65f9e0c">
-<h3 id="org65f9e0c">Our Aim</h3>
+<section id="slide-org6309e1c">
+<h3 id="org6309e1c">Our Aim</h3>
 <ol>
 <li class="fragment appear">To identify a set of correlates of LBW that can be assessed by even community level health workers with a little training for taking measurements on BMI, mid-arm circumference, head circumference, abdominal girth and fundal height.</li>
 <li class="fragment appear">Based on these correlates, to develop suitable tools for classifying pregnant women into two classes - prospective LBW mothers and NBW mothers, at the 28th week of pregnancy.</li>
@@ -144,14 +142,14 @@ Sensitivity
 </section>
 </section>
 <section>
-<section id="slide-orgefc4884">
-<h2 id="orgefc4884">Decision Making Schemes</h2>
+<section id="slide-org736f926">
+<h2 id="org736f926">Decision Making Schemes</h2>
 <p>
 Lets dive into the details on how we reached to a amazing model to predict LBW children from our dataset.
 </p>
 </section>
-<section id="slide-org436f94b">
-<h3 id="org436f94b">Dataset</h3>
+<section id="slide-org51c94e3">
+<h3 id="org51c94e3">Dataset</h3>
 <p>
    The data in the study are those collected from two reputed NGOs – Child in Need Institute in 
 South 24 Parganas and Nivedita Community Care Centre in Hooghly, West Bengal. 
@@ -168,8 +166,8 @@ As we can see, the dataset is not large. So later, after feature engineering, we
 
 </aside>
 </section>
-<section id="slide-orga6a06b4">
-<h4 id="orga6a06b4">Renaming Features From the Documentation</h4>
+<section id="slide-orgdf18684">
+<h4 id="orgdf18684">Renaming Features From the Documentation</h4>
 <p>
 The dataset had unambiguous feature names so we decided to fix them before diving deep.
 </p>
@@ -177,8 +175,8 @@ The dataset had unambiguous feature names so we decided to fix them before divin
 From the documentation provided, we managed to rename 50 features. (A list of the features can be found in relevant github page)
 </p>
 </section>
-<section id="slide-orgf3f909e">
-<h3 id="orgf3f909e">Data Cleaing</h3>
+<section id="slide-org1ff3feb">
+<h3 id="org1ff3feb">Data Cleaing</h3>
 <blockquote >
 <p>
 Bad Data In, Bad Data Out
@@ -188,8 +186,8 @@ Bad Data In, Bad Data Out
 We have heavily focused on cleaning data. Because health diagnosis-oriented models heavily depends on sensitivity. So we have to make sure the data is good.
 </p>
 </section>
-<section id="slide-orgd23e661">
-<h3 id="orgd23e661">Getting rid of unnecessary features</h3>
+<section id="slide-org8058a17">
+<h3 id="org8058a17">Getting rid of unnecessary features</h3>
 <p>
 We identified three unnecessary features.
 </p>
@@ -200,8 +198,8 @@ We identified three unnecessary features.
 
 </ul>
 </section>
-<section id="slide-org20ee7e2">
-<h4 id="org20ee7e2">Getting rid of Duplicates</h4>
+<section id="slide-org67b3e62">
+<h4 id="org67b3e62">Getting rid of Duplicates</h4>
 <div class="org-src-container">
 
 <pre  class="src src-python"   ><code trim>database.duplicated<span style="color: #81A1C1;">()</span>.<span style="color: #81A1C1;">sum</span><span style="color: #81A1C1;">()</span>
@@ -211,15 +209,15 @@ We identified three unnecessary features.
 There were no duplicate data.
 </p>
 </section>
-<section id="slide-org60d15fe">
-<h3 id="org60d15fe">Dealing Missing Value</h3>
+<section id="slide-orgbafe859">
+<h3 id="orgbafe859">Dealing Missing Value</h3>
 
 <div class="figure">
 <p><img src="./missing values.png" alt="missing values.png" width="1000" align="center" />
 </p>
 </div>
 </section>
-<section id="slide-org60d15fe-split">
+<section id="slide-orgbafe859-split">
 <ul>
 <li class="fragment highlight-red">Columns with few missing values, usually have a common rows in which they have missing values. So dropping rows is a good choice for columns with few missing values.</li>
 
@@ -231,7 +229,7 @@ There were no duplicate data.
 </ul>
 
 </section>
-<section id="slide-org60d15fe-split">
+<section id="slide-orgbafe859-split">
 
 <div class="figure">
 <p><img src="./features with 100 missing values.png" alt="features with 100 missing values.png" width="800" align="center" />
@@ -250,8 +248,8 @@ BMI:116
 </div>
 
 </section>
-<section id="slide-orge4bdb67">
-<h4 id="orge4bdb67">Consider dropping "Mother's weight in week 20"</h4>
+<section id="slide-org27604bf">
+<h4 id="org27604bf">Consider dropping "Mother's weight in week 20"</h4>
 <ul>
 <li class="fragment highlight-red">It has 50% data missing.</li>
 <li class="fragment highlight-red">In a temporary dataset, We noticed this feature has weak negative correlation coefficient(-0.022) with target feature.</li>
@@ -266,7 +264,7 @@ BMI:116
 So we can safely drop this feature!
 </p>
 </section>
-<section id="slide-orge4bdb67-split">
+<section id="slide-org27604bf-split">
 <p>
 The other top-features have less than 20% missing values. So we will use median, mode, interprolation according to the data type and necessity.
 </p>
@@ -277,8 +275,8 @@ The other top-features have less than 20% missing values. So we will use median,
 
 </ul>
 </section>
-<section id="slide-org5820076">
-<h4 id="org5820076">Bad Obesity History</h4>
+<section id="slide-org6874514">
+<h4 id="org6874514">Bad Obesity History</h4>
 <p>
 This categorical feature has equal number of 1 and 0.
 </p>
@@ -304,8 +302,8 @@ database["Bad Obesity History"].value_counts()
 </code></pre>
 </div>
 </section>
-<section id="slide-org9f11a3b">
-<h4 id="org9f11a3b">Less than 100 missing Values</h4>
+<section id="slide-orged1ba57">
+<h4 id="orged1ba57">Less than 100 missing Values</h4>
 <p>
 Now that we are dealing with the major missing-value features, we will just impute the rest of the missing values with mean or mode.
 </p>
@@ -320,13 +318,13 @@ Current dataset:
 </section>
 </section>
 <section>
-<section id="slide-orgf99591e">
-<h2 id="orgf99591e">Data Exploration</h2>
-<div class="outline-text-2" id="text-orgf99591e">
+<section id="slide-orgd506616">
+<h2 id="orgd506616">Data Exploration</h2>
+<div class="outline-text-2" id="text-orgd506616">
 </div>
 </section>
-<section id="slide-orgd0c6982">
-<h3 id="orgd0c6982">Removing correlated features</h3>
+<section id="slide-org449b6c6">
+<h3 id="org449b6c6">Removing correlated features</h3>
 <p>
 Highly correlated features give the same information so using one of them should be enough. We chose 0.8 as the point of strength.
 </p>
@@ -341,8 +339,8 @@ Mother weight at 28th week of pregnancy
 We will remove these features.
 </p>
 </section>
-<section id="slide-org771af50">
-<h3 id="org771af50">Outliers</h3>
+<section id="slide-org353fd0e">
+<h3 id="org353fd0e">Outliers</h3>
 <p>
 We trim and cap outliers. Extensive visualization was implemented to make sure its behaving the way we want.
 </p>
@@ -362,7 +360,7 @@ The outliers are LBW or NBW. So capping them does not result in loss of much inf
 </aside>
 
 </section>
-<section id="slide-org771af50-split">
+<section id="slide-org353fd0e-split">
 <p>
 We did extensive visualization to make sure we did not use capping in wrong scenario. And due to that, we noticed <code>Mother's weight in week 28</code>.
 </p>
@@ -372,14 +370,14 @@ We did extensive visualization to make sure we did not use capping in wrong scen
 </p>
 </div>
 </section>
-<section id="slide-org6026ffe">
-<h3 id="org6026ffe">Fixing Data Types</h3>
+<section id="slide-orgf4b9803">
+<h3 id="orgf4b9803">Fixing Data Types</h3>
 <p>
 All features are either int64 or float64 datatype. So we see no need of fixing data types.
 </p>
 </section>
-<section id="slide-orgf0517f3">
-<h3 id="orgf0517f3">Correlation</h3>
+<section id="slide-org0fc3d70">
+<h3 id="org0fc3d70">Correlation</h3>
 <p>
 From correlation matrix, We noticed that every feature has weak correlation (-0.2, 0.2) with the target feature. So we might need a lot of features to get a model predict with high accuracy.
 </p>
@@ -389,8 +387,8 @@ From correlation matrix, We noticed that every feature has weak correlation (-0.
 </p>
 </div>
 </section>
-<section id="slide-orga31d49d">
-<h3 id="orga31d49d">Dimensionality Reduction using PCA</h3>
+<section id="slide-org6a561a4">
+<h3 id="org6a561a4">Dimensionality Reduction using PCA</h3>
 <p>
 We will need it later for model exploration. So we will prepare the principle components in this stage.
 </p>
@@ -400,7 +398,7 @@ We will need it later for model exploration. So we will prepare the principle co
 </p>
 </div>
 </section>
-<section id="slide-orga31d49d-split">
+<section id="slide-org6a561a4-split">
 <p>
 Now lets take a look at the explained variance by the number of PC.
 <img src="./pca variance.png" alt="pca variance.png" />
@@ -409,20 +407,20 @@ Now lets take a look at the explained variance by the number of PC.
 </section>
 </section>
 <section>
-<section id="slide-org1452804">
-<h2 id="org1452804">Models and Techniques</h2>
-<div class="outline-text-2" id="text-org1452804">
+<section id="slide-org050cc70">
+<h2 id="org050cc70">Models and Techniques</h2>
+<div class="outline-text-2" id="text-org050cc70">
 </div>
 </section>
-<section id="slide-orgf6698a5">
-<h3 id="orgf6698a5">Cross Validation</h3>
+<section id="slide-org191f4b3">
+<h3 id="org191f4b3">Cross Validation</h3>
 <p>
 We split the dataset in train-test. We keep 60% for train data and 40% in test data.
 </p>
 
 </section>
-<section id="slide-orgd3f8fdc">
-<h3 id="orgd3f8fdc">Logistic Regression</h3>
+<section id="slide-org5b42840">
+<h3 id="org5b42840">Logistic Regression</h3>
 <p>
 First, we will do exploratory model analysis before deciding on a model.
 </p>
@@ -439,8 +437,8 @@ Recall: 0.885
 </code></pre>
 </div>
 </section>
-<section id="slide-orgf325f5c">
-<h3 id="orgf325f5c">PCA with Logistic Regression</h3>
+<section id="slide-org436e31e">
+<h3 id="org436e31e">PCA with Logistic Regression</h3>
 <p>
 We now use 5 Principle component to generate a model.
 </p>
@@ -460,8 +458,8 @@ Recall: 1.0
 A 100% Sensitivity! We will circle back to this point during model decision.
 </p>
 </section>
-<section id="slide-orgeacd44e">
-<h3 id="orgeacd44e">Recursion!</h3>
+<section id="slide-org5eb1c0a">
+<h3 id="org5eb1c0a">Recursion!</h3>
 <p>
 We can see that our data works pretty well with the said model. So data preparation stage can be said to be a success.
 </p>
@@ -472,8 +470,8 @@ Now we will focus on one of the core goals from our project and that is, selecti
 So we will Run a RFE algorithm to see a ranking of top features.
 </p>
 </section>
-<section id="slide-org8ee9991">
-<h3 id="org8ee9991">RFE</h3>
+<section id="slide-orgb022d5e">
+<h3 id="orgb022d5e">RFE</h3>
 <div class="org-src-container">
 
 <pre  class="src src-text"   ><code trim>Optimal number of features: 38
@@ -488,21 +486,21 @@ RFE gives us <b>38 features</b> which is a lot for a rural health worker to esti
 </p>
 </div>
 </section>
-<section id="slide-org8ee9991-split">
+<section id="slide-orgb022d5e-split">
 <table><tr><th>Number of Features</th><th>Correct Classification</th></tr><tr><td>38</td><td>82%</td></tr><tr><td>8</td><td>77%</td></tr></table>
 <p>
 As we can see, 8 feature is a optimul number of feature for our needs. Now lets take a look at the said 8 features.
 </p>
 </section>
-<section id="slide-orgb22d215">
-<h4 id="orgb22d215">The top 8 features</h4>
+<section id="slide-org2fbdd18">
+<h4 id="org2fbdd18">The top 8 features</h4>
 
 <div class="figure">
 <p><img src="./rfe feature ranking.png" alt="rfe feature ranking.png" width="1000" align="center" />
 </p>
 </div>
 </section>
-<section id="slide-orgb22d215-split">
+<section id="slide-org2fbdd18-split">
 <ul>
 <li class="fragment appear">Mother's Age At Pregnancy</li>
 <li class="fragment appear">Abdominal girth at 20th weeks</li>
@@ -515,8 +513,8 @@ As we can see, 8 feature is a optimul number of feature for our needs. Now lets 
 
 </ul>
 </section>
-<section id="slide-org5b7fe6f">
-<h3 id="org5b7fe6f">Generating Dataset</h3>
+<section id="slide-org98861b9">
+<h3 id="org98861b9">Generating Dataset</h3>
 <p>
 Now we will use the selected eight features to generate out model. 
 </p>
@@ -529,8 +527,8 @@ The current dataset with 8 features -
 </p>
 </div>
 </section>
-<section id="slide-orgc2c5545">
-<h3 id="orgc2c5545">Logistic Regression on 38 feature</h3>
+<section id="slide-org930fd85">
+<h3 id="org930fd85">Logistic Regression on 38 feature</h3>
 
 <div class="figure">
 <p><img src="./confusion matrix for 38 features.png" alt="confusion matrix for 38 features.png" width="600" align="center" />
@@ -544,8 +542,8 @@ Recall: 0.8838709677419355
 </code></pre>
 </div>
 </section>
-<section id="slide-org97d99fd">
-<h3 id="org97d99fd">Logistic Regression with 8 Features</h3>
+<section id="slide-orge38ce10">
+<h3 id="orge38ce10">Logistic Regression with 8 Features</h3>
 
 <div class="figure">
 <p><img src="./confusion matrix for 8 features.png" alt="confusion matrix for 8 features.png" width="600" align="center" />
@@ -561,24 +559,24 @@ Recall: 0.9290322580645162
 </section>
 </section>
 <section>
-<section id="slide-org789ba1c">
-<h2 id="org789ba1c">Model and Feature Selection</h2>
-<div class="outline-text-2" id="text-org789ba1c">
+<section id="slide-orgd4ed8ce">
+<h2 id="orgd4ed8ce">Model and Feature Selection</h2>
+<div class="outline-text-2" id="text-orgd4ed8ce">
 </div>
 </section>
-<section id="slide-org3b43870">
-<h3 id="org3b43870">Model Implementation using all features</h3>
+<section id="slide-org1cde2f6">
+<h3 id="org1cde2f6">Model Implementation using all features</h3>
 <table><tr><th>Characteristic</th><th>Logistic Regression</th><th>PCA and Logistic Regression</th></tr><tr><td>Accuracy</td><td>0.770</td><td>0.75</td></tr><tr><td>Precision</td><td>0.83</td><td>0.75</td></tr><tr><td>Recall</td><td>0.875</td><td><b>1.0</b></td></tr></table>
 <p class="fragment (appear)">
 What does 100% Sensitivity signify?
 </p>
 </section>
-<section id="slide-orgd1167d9">
-<h3 id="orgd1167d9">Model Implementation using Top Features</h3>
+<section id="slide-org9504d45">
+<h3 id="org9504d45">Model Implementation using Top Features</h3>
 <table><tr><th>Characteristic</th><th>Logistic Regression with 38 Features</th><th>Logistic Regression with 8 Features</th></tr><tr><td>Accuracy</td><td>0.78</td><td>0.765</td></tr><tr><td>Precision</td><td>0.84</td><td>0.80</td></tr><tr><td>Recall</td><td>0.88</td><td><b>0.93</b></td></tr></table>
 </section>
-<section id="slide-org9f6ff58">
-<h3 id="org9f6ff58">Do our data best describe NBW?</h3>
+<section id="slide-org831783b">
+<h3 id="org831783b">Do our data best describe NBW?</h3>
 <p>
 Our target feature is -
 </p>
@@ -592,8 +590,8 @@ Baby's weight greater than 2.5kg?
 This far, we have shown everything for NBW, our current model describes NBW. Its because - from the data, we could not get considerable accuracy while predicting LBW. 
 </p>
 </section>
-<section id="slide-orgae9de36">
-<h4 id="orgae9de36">Toggling Target Feature</h4>
+<section id="slide-orgffb0b59">
+<h4 id="orgffb0b59">Toggling Target Feature</h4>
 <p>
     We verified that through toggling. Toggling makes sense here because -
 Assume, a kid is of weight 2600gm. 
@@ -614,14 +612,8 @@ Answer=Yes/1
 Answer=No/0
 </p>
 </section>
-<section id="slide-org244aa4d">
-<h3 id="org244aa4d">Toggling Feature</h3>
-<p>
-Our target feature was 
-</p>
-</section>
-<section id="slide-orgbe07bb4">
-<h3 id="orgbe07bb4">LBW - Precision</h3>
+<section id="slide-orgb60b21b">
+<h3 id="orgb60b21b">LBW - Precision</h3>
 <table><tr><th>Characteristic</th><th>Logistic Regression for LBW</th><th>PCA and Logistic Regression for LBW</th></tr><tr><td>Accuracy</td><td>0.770</td><td>0.775</td></tr><tr><td>Precision</td><td>0.5454</td><td>0.5</td></tr><tr><td>Recall</td><td>0.4545</td><td>0.022</td></tr></table>
 
 <div class="figure">
@@ -629,8 +621,8 @@ Our target feature was
 </p>
 </div>
 </section>
-<section id="slide-org572b18f">
-<h3 id="org572b18f">NBW - Recall</h3>
+<section id="slide-org337dfa6">
+<h3 id="org337dfa6">NBW - Recall</h3>
 
 <div class="figure">
 <p><img src="./NBW data.png" alt="NBW data.png" />
@@ -640,8 +632,8 @@ Our target feature was
 As we saw, our model can't really predict LBW well.
 </p>
 </section>
-<section id="slide-orgc565e99">
-<h3 id="orgc565e99">Suggestion</h3>
+<section id="slide-org7d719e1">
+<h3 id="org7d719e1">Suggestion</h3>
 <p>
 As our model describes NBW with high accuracy with only 8 features, we suggest that 
 </p>
@@ -661,8 +653,8 @@ As our model describes NBW with high accuracy with only 8 features, we suggest t
 </section>
 </section>
 <section>
-<section id="slide-orgbd65291">
-<h2 id="orgbd65291">Conclusion</h2>
+<section id="slide-orgfc5f88a">
+<h2 id="orgfc5f88a">Conclusion</h2>
 <p>
 We have successfully implemented a model that can help identify NBW pregnancy with high accuracy <b><b>with only 8 features.</b></b> The features are-
 </p>
@@ -678,7 +670,7 @@ We have successfully implemented a model that can help identify NBW pregnancy wi
 
 </ul>
 </section>
-<section id="slide-orgbd65291-split">
+<section id="slide-orgfc5f88a-split">
 <p>
 The objective of this project is:
 </p>
@@ -693,48 +685,12 @@ The objective of this project is:
 As our feature engineering, modelling and validation encompasses all these stages, we conclude that the project objectives has been achieved.
 </p>
 </section>
-</section>
-<section>
-<section id="slide-orgaf65f88">
-<h2 id="orgaf65f88">My Journey</h2>
-<ul>
-<li>Zero Idea on What data science is.</li>
-<li>Class with regular interval and assignment assessments.</li>
-<li>Comfortable working with data.</li>
-
-</ul>
+<section id="slide-orgfc5f88a-split">
+<blockquote >
 <p>
-While I can't yet confidently say that I am a data analyst, I know that with a bit more time, I can be one. Thanks a lot, Softanbee.
+Thank You, Coding Object
 </p>
-
-
-</section>
-</section>
-<section>
-<section id="slide-orga0956a0">
-<h2 id="orga0956a0">Temp</h2>
-<div class="outline-text-2" id="text-orga0956a0">
-</div>
-</section>
-<section id="slide-org2361586">
-<h4 id="org2361586">Consider dropping "ageyc"</h4>
-<ul>
-<li class="fragment appear">It has 37% missing value.</li>
-<li class="fragment appear">We plot the data against target feature and noticed no correlation.</li>
-
-</ul>
-</section>
-<section id="slide-org2361586-split">
-
-<div class="figure">
-<p><img src="./ageyc.png" alt="ageyc.png" />
-</p>
-</div>
-<div class="org-src-container">
-
-<pre  class="src src-text"   ><code trim>correlation coefficient = -5.78186145e-04
-</code></pre>
-</div>
+</blockquote>
 </section>
 </section>
 </div>
